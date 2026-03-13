@@ -1,0 +1,296 @@
+{
+  "person": {
+    "name": "Mattia Jin",
+    "title": {
+      "en": "AI Product Designer",
+      "zh": "AI 产品设计师"
+    },
+    "location": "Guangzhou, China",
+    "email": "mattiajin@163.com",
+    "currentCompany": "Vocalbeats",
+    "experienceNote": {
+      "en": "Currently at Vocalbeats.",
+      "zh": "目前就职于 Vocalbeats。"
+    },
+    "heroTagline": {
+      "en": "I craft brands and experiences for AI products — turning complex capabilities into interfaces people understand and trust.",
+      "zh": "我专注于 AI 产品的品牌与体验设计——将复杂的能力转化为人们能理解、能信任的界面。"
+    },
+    "aboutBio": {
+      "en": "I'm a product designer focused on AI systems, brand identity, and enterprise experience. My work sits at the intersection of visual clarity and interaction complexity — making powerful tools feel approachable.\n\nI believe the best AI products don't hide their intelligence — they make it legible. My job is to design the layer between what a model can do and what a person can actually understand and act on.\n\nCurrently at Vocalbeats. Open to future opportunities in AI product design.",
+      "zh": "我是一名专注于 AI 系统、品牌识别和企业体验的产品设计师。我的工作处于视觉清晰度与交互复杂性的交叉点——让强大的工具变得平易近人。\n\n我相信最好的 AI 产品不会隐藏它们的智能——而是让它变得清晰可读。我的工作是设计模型能力与用户理解之间的那一层。\n\n目前就职于 Vocalbeats。欢迎未来的 AI 产品设计机会。"
+    }
+  },
+  "social": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/yexin-jin-7291362b1/",
+      "icon": "linkedin",
+      "enabled": true
+    },
+    {
+      "platform": "小红书",
+      "url": "",
+      "icon": "xiaohongshu",
+      "enabled": false
+    },
+    {
+      "platform": "Instagram",
+      "url": "",
+      "icon": "instagram",
+      "enabled": false
+    },
+    {
+      "platform": "Dribbble",
+      "url": "",
+      "icon": "dribbble",
+      "enabled": false
+    }
+  ],
+  "focus": [
+    { "en": "AI product design", "zh": "AI 产品设计" },
+    { "en": "Brand identity", "zh": "品牌识别" },
+    { "en": "Design systems", "zh": "设计系统" },
+    { "en": "Enterprise UX", "zh": "企业级 UX" }
+  ],
+  "tools": ["Figma", "FigJam", "Framer", "Illustrator"],
+  "writing": [
+    {
+      "title": { "en": "[Article title — to be added]", "zh": "[文章标题 — 待添加]" },
+      "url": "",
+      "enabled": false
+    }
+  ],
+  "projects": [
+    {
+      "id": "ai-meeting-insights",
+      "enabled": true,
+      "tags": ["AI", "B2B", "Workflow"],
+      "heroImage": "",
+      "heroColor": "#EEE9E0",
+      "title": { "en": "AI Meeting Insights", "zh": "AI 会议洞察" },
+      "summary": {
+        "en": "Turn long meeting recordings into clear decisions and action items using AI.",
+        "zh": "利用 AI 将冗长的会议录音转化为清晰的决策和行动项。"
+      },
+      "metric": { "en": "↓ 40% review time", "zh": "↓ 40% 回顾时间" },
+      "role": { "en": "Product Design · AI Interaction", "zh": "产品设计 · AI 交互" },
+      "timeline": { "en": "8 weeks", "zh": "8 周" },
+      "team": { "en": "PM + 2 Engineers", "zh": "PM + 2 名工程师" },
+      "tools": ["Figma", "FigJam"],
+      "myContribution": { "en": "[Your specific contributions — to be updated]", "zh": "[你的具体贡献 — 待更新]" },
+      "nextProject": "signal-brand-system",
+      "sections": {
+        "problem": {
+          "heading": { "en": "Recordings are a graveyard of lost decisions.", "zh": "录音是决策的坟场。" },
+          "body": { "en": "Teams record nearly every meeting — but rarely revisit them. Important decisions and action items get buried inside hour-long recordings, forcing members to scrub through video or rely on incomplete notes.", "zh": "团队几乎录制每一次会议——但很少重看。重要决策和行动项被埋在长达一小时的录音中，迫使成员手动拖动进度条或依赖不完整的笔记。" },
+          "findings": {
+            "en": ["Open a recording and scrub through the timeline manually", "Try to locate specific decisions or action items", "Give up and rely on fragmented memory or notes"],
+            "zh": ["手动打开录音并拖动时间轴", "试图定位特定决策或行动项", "放弃并依赖碎片化的记忆或笔记"]
+          },
+          "challenge": {
+            "en": "How might we help teams quickly understand meeting outcomes without rewatching entire recordings?",
+            "zh": "我们如何帮助团队快速理解会议结果，而无需重看整个录音？"
+          },
+          "image": ""
+        },
+        "research": {
+          "heading": { "en": "Users skim — they don't watch.", "zh": "用户是扫读者，不是观看者。" },
+          "body": { "en": "Research included 9 user interviews, a survey with 42 participants, and direct observation of recorded meeting workflows across three teams.", "zh": "研究包括 9 次用户访谈、42 名参与者的调查，以及对三个团队录制会议工作流的直接观察。" },
+          "findings": {
+            "en": ["Most participants jump through the timeline searching for key moments — not watching linearly", "Users primarily want to know what was decided and what tasks were assigned", "Manual meeting notes vary widely between team members"],
+            "zh": ["大多数参与者跳跃浏览时间轴寻找关键时刻，而非线性观看", "用户主要想知道决定了什么以及分配了哪些任务", "手动会议记录在团队成员之间差异很大"]
+          },
+          "image": ""
+        },
+        "process": {
+          "heading": { "en": "Three concepts, one clear winner.", "zh": "三个方案，一个明显优胜者。" },
+          "body": { "en": "I explored three interface directions before converging.", "zh": "我探索了三个界面方向后最终收敛。" },
+          "concepts": [
+            {
+              "name": { "en": "Automatic summary page", "zh": "自动摘要页" },
+              "problem": { "en": "AI produces a full summary. Problem: hard to verify accuracy.", "zh": "AI 生成完整摘要。问题：难以验证准确性。" }
+            },
+            {
+              "name": { "en": "Timeline insights", "zh": "时间轴洞察" },
+              "problem": { "en": "Insights appear along the recording timeline. Problem: interface complexity.", "zh": "洞察沿录音时间轴显示。问题：界面复杂度高。" }
+            },
+            {
+              "name": { "en": "Structured insights panel", "zh": "结构化洞察面板" },
+              "problem": { "en": "Insights grouped into summary, decisions, action items. Users can click to jump to the relevant moment. Selected for development.", "zh": "洞察按摘要、决策、行动项分组。用户可点击跳转到相关时刻。已选定进行开发。" }
+            }
+          ],
+          "image": ""
+        },
+        "solution": {
+          "heading": { "en": "AI-assisted review — with human control.", "zh": "AI 辅助回顾——人类保持控制权。" },
+          "body": { "en": "The final product combines AI analysis with human review. Every generated insight links back to the original moment in the recording, enabling quick verification.", "zh": "最终产品将 AI 分析与人工审核相结合。每个生成的洞察都链接回录音中的原始时刻，支持快速验证。" },
+          "features": {
+            "en": ["AI-generated meeting summary — adjustable length", "Decision tracker — linked to timestamps", "Action item manager — with user tagging"],
+            "zh": ["AI 生成会议摘要——可调整长度", "决策追踪器——关联时间戳", "行动项管理器——支持用户标记"]
+          },
+          "image": ""
+        },
+        "impact": {
+          "heading": { "en": "Measurable improvements across all metrics.", "zh": "所有指标均有可量化改善。" },
+          "body": { "en": "Prototype testing was conducted with 12 participants across two rounds.", "zh": "原型测试与 12 名参与者进行了两轮。" },
+          "metrics": [
+            { "label": { "en": "Meeting review time", "zh": "会议回顾时间" }, "value": "−40%", "baseline": "" },
+            { "label": { "en": "Decision identification", "zh": "决策识别率" }, "value": "+35%", "baseline": "" },
+            { "label": { "en": "User satisfaction", "zh": "用户满意度" }, "value": "4.5 / 5", "baseline": "" }
+          ]
+        },
+        "reflection": {
+          "heading": { "en": "Trust is earned through transparency.", "zh": "信任来自透明。" },
+          "body": { "en": "The most important insight from this project: users didn't resist AI — they resisted opacity. Once they could see where each insight came from, trust followed quickly. The ability to jump from an AI-generated decision back to the exact recording moment was the single most impactful feature we shipped.", "zh": "这个项目最重要的洞察：用户并不抗拒 AI——他们抗拒的是不透明。一旦他们能看到每个洞察的来源，信任就随之建立。从 AI 生成的决策跳转回录音精确时刻的能力，是我们交付的最具影响力的功能。" }
+        }
+      }
+    },
+    {
+      "id": "signal-brand-system",
+      "enabled": true,
+      "tags": ["Brand", "AI", "Design System"],
+      "heroImage": "",
+      "heroColor": "#E8EDF5",
+      "title": { "en": "Signal Brand System", "zh": "Signal 品牌系统" },
+      "summary": {
+        "en": "A unified visual identity for an AI analytics platform — from logo to product UI.",
+        "zh": "为 AI 分析平台打造统一视觉识别系统——从 Logo 到产品 UI。"
+      },
+      "metric": { "en": "+60% brand consistency", "zh": "+60% 品牌一致性" },
+      "role": { "en": "Brand Design · Design Systems", "zh": "品牌设计 · 设计系统" },
+      "timeline": { "en": "12 weeks", "zh": "12 周" },
+      "team": { "en": "Solo + Founder", "zh": "独立完成 + 创始人" },
+      "tools": ["Figma", "Illustrator"],
+      "myContribution": { "en": "[Your specific contributions — to be updated]", "zh": "[你的具体贡献 — 待更新]" },
+      "nextProject": "context-onboarding",
+      "sections": {
+        "problem": {
+          "heading": { "en": "A powerful product with no coherent identity.", "zh": "一个强大的产品，却没有连贯的视觉识别。" },
+          "body": { "en": "Signal launched as an AI analytics platform with strong technical capabilities but an inconsistent visual identity — mixing styles across the marketing site, product UI, and sales materials.", "zh": "Signal 以强大技术能力的 AI 分析平台姿态上市，但视觉识别不一致——在营销网站、产品 UI 和销售材料中混用不同风格。" },
+          "challenge": {
+            "en": "Create a unified visual system that could scale from a logo to a full product UI without losing coherence.",
+            "zh": "创建一个统一的视觉系统，能从 Logo 扩展到完整产品 UI 而不失一致性。"
+          },
+          "image": ""
+        },
+        "research": {
+          "heading": { "en": "Enterprise buyers judge books by their covers.", "zh": "企业买家以貌取人。" },
+          "body": { "en": "Competitive analysis of 14 AI analytics products and interviews with 6 enterprise buyers revealed clear patterns in how trust is established through visual language.", "zh": "对 14 个 AI 分析产品的竞品分析和对 6 名企业买家的访谈揭示了通过视觉语言建立信任的清晰规律。" },
+          "findings": {
+            "en": ["Enterprise buyers assess credibility within the first 8 seconds on a landing page", "Inconsistent UI components signal engineering immaturity", "Color restraint and typographic clarity are proxies for product reliability"],
+            "zh": ["企业买家在落地页的前 8 秒内评估可信度", "不一致的 UI 组件暗示工程不成熟", "色彩克制和排版清晰度是产品可靠性的代理指标"]
+          },
+          "image": ""
+        },
+        "process": {
+          "heading": { "en": "From principles to system.", "zh": "从原则到系统。" },
+          "body": { "en": "The design process moved through three phases: brand strategy, visual identity, and component library — each phase informing the next.", "zh": "设计流程分三个阶段：品牌策略、视觉识别、组件库——每个阶段都为下一个提供信息。" },
+          "concepts": [
+            { "name": { "en": "Defined four brand principles: Precise, Transparent, Grounded, Intelligent", "zh": "确定四大品牌原则：精准、透明、踏实、智能" }, "problem": { "en": "", "zh": "" } },
+            { "name": { "en": "Explored 3 visual directions before selecting the final system", "zh": "探索了 3 个视觉方向后选定最终系统" }, "problem": { "en": "", "zh": "" } },
+            { "name": { "en": "Built a Figma component library of 80+ components", "zh": "构建了包含 80+ 组件的 Figma 组件库" }, "problem": { "en": "", "zh": "" } }
+          ],
+          "image": ""
+        },
+        "solution": {
+          "heading": { "en": "A system that thinks like the product it represents.", "zh": "一个像其所代表产品一样思考的系统。" },
+          "body": { "en": "The final brand system is built on a grid-based geometry that references data visualization — precise, structured, and immediately legible.", "zh": "最终品牌系统建立在参考数据可视化的网格几何基础上——精准、结构化、一目了然。" },
+          "features": {
+            "en": ["Wordmark built on a custom geometric grid", "Two-tone color system: deep navy + warm amber", "Typography pair: IBM Plex Serif + IBM Plex Sans", "Design tokens applied across product, web, and print"],
+            "zh": ["基于自定义几何网格的文字标志", "双色系统：深海军蓝 + 暖琥珀色", "字体组合：IBM Plex Serif + IBM Plex Sans", "设计令牌应用于产品、网站和印刷"]
+          },
+          "image": ""
+        },
+        "impact": {
+          "heading": { "en": "Consistency that converted.", "zh": "一致性带来转化。" },
+          "body": { "en": "", "zh": "" },
+          "metrics": [
+            { "label": { "en": "Brand consistency score", "zh": "品牌一致性评分" }, "value": "+60%", "baseline": "" },
+            { "label": { "en": "Enterprise demo requests", "zh": "企业演示请求" }, "value": "+28%", "baseline": "" },
+            { "label": { "en": "Component adoption", "zh": "组件采用率" }, "value": "100%", "baseline": "" }
+          ]
+        },
+        "reflection": {
+          "heading": { "en": "Brand is product.", "zh": "品牌即产品。" },
+          "body": { "en": "The most valuable outcome wasn't the logo or the color system — it was the shared language the team gained. When everyone refers to the same tokens, the same principles, and the same component names, design decisions become faster and more consistent without my direct involvement.", "zh": "最有价值的结果不是 Logo 或色彩系统——而是团队获得的共同语言。当每个人都引用相同的令牌、相同的原则和相同的组件名称时，设计决策变得更快更一致，无需我的直接参与。" }
+        }
+      }
+    },
+    {
+      "id": "context-onboarding",
+      "enabled": true,
+      "tags": ["UX", "Enterprise", "AI"],
+      "heroImage": "",
+      "heroColor": "#EDF5E8",
+      "title": { "en": "Context Onboarding", "zh": "Context 引导流程" },
+      "summary": {
+        "en": "Redesigning the onboarding flow for a complex AI research tool used by enterprise teams.",
+        "zh": "为企业团队使用的复杂 AI 研究工具重新设计引导流程。"
+      },
+      "metric": { "en": "+35% activation rate", "zh": "+35% 激活率" },
+      "role": { "en": "Product Design · Research", "zh": "产品设计 · 用户研究" },
+      "timeline": { "en": "6 weeks", "zh": "6 周" },
+      "team": { "en": "PM + 3 Engineers", "zh": "PM + 3 名工程师" },
+      "tools": ["Figma", "Maze"],
+      "myContribution": { "en": "[Your specific contributions — to be updated]", "zh": "[你的具体贡献 — 待更新]" },
+      "nextProject": null,
+      "sections": {
+        "problem": {
+          "heading": { "en": "Users were activating — but not understanding.", "zh": "用户在激活——但没有理解。" },
+          "body": { "en": "Context is an AI research tool built for enterprise teams. Despite strong initial signups, only 34% of new users reached their first meaningful output within 7 days. The rest churned silently.", "zh": "Context 是为企业团队构建的 AI 研究工具。尽管初始注册强劲，但只有 34% 的新用户在 7 天内达到了第一次有意义的输出。其余人悄悄流失。" },
+          "findings": {
+            "en": ["The tool had 12 configurable options on the initial setup screen", "No guidance on which settings mattered for which use case", "Users who contacted support reported feeling 'lost immediately'"],
+            "zh": ["该工具在初始设置界面有 12 个可配置选项", "没有关于哪些设置适用于哪种用例的指导", "联系支持的用户表示'立即感到迷失'"]
+          },
+          "challenge": {
+            "en": "Redesign onboarding so that users reach their first valuable moment in under 5 minutes.",
+            "zh": "重新设计引导流程，使用户在 5 分钟内达到第一个有价值的时刻。"
+          },
+          "image": ""
+        },
+        "research": {
+          "heading": { "en": "Complexity isn't the problem — timing is.", "zh": "复杂性不是问题——时机才是。" },
+          "body": { "en": "8 user interviews and session recordings of 40 onboarding sessions revealed that the problem wasn't the product's complexity — it was that all complexity was front-loaded.", "zh": "8 次用户访谈和 40 次引导会话的录制揭示，问题不在于产品的复杂性——而在于所有复杂性都被前置了。" },
+          "findings": {
+            "en": ["Users who completed setup successfully did so by skipping most options", "The first 'aha moment' came only after a user saw real output", "Progressive disclosure had worked in analogous tools"],
+            "zh": ["成功完成设置的用户是通过跳过大多数选项实现的", "第一个'顿悟时刻'只在用户看到真实输出后才出现", "渐进式披露在类似工具中奏效"]
+          },
+          "image": ""
+        },
+        "process": {
+          "heading": { "en": "From configuration to conversation.", "zh": "从配置到对话。" },
+          "body": { "en": "The core design shift: move from a configuration-first flow to a use-case-first flow.", "zh": "核心设计转变：从配置优先流程转变为用例优先流程。" },
+          "concepts": [
+            { "name": { "en": "Wizard-style flow", "zh": "向导式流程" }, "problem": { "en": "Tested but showed lower completion", "zh": "测试但完成率较低" } },
+            { "name": { "en": "Template-first flow", "zh": "模板优先流程" }, "problem": { "en": "Highest task completion in unmoderated testing — selected", "zh": "非引导测试中任务完成率最高——已选定" } },
+            { "name": { "en": "Blank canvas", "zh": "空白画布" }, "problem": { "en": "Overwhelming for new users", "zh": "对新用户来说过于压迫" } }
+          ],
+          "image": ""
+        },
+        "solution": {
+          "heading": { "en": "Choose your starting point. See results immediately.", "zh": "选择你的起点。立即看到结果。" },
+          "body": { "en": "The redesigned onboarding presents three starter templates based on team role. Each template pre-configures the tool and guides users to their first output — before asking them to configure anything.", "zh": "重新设计的引导流程根据团队角色呈现三个启动模板。每个模板预配置工具并引导用户达到第一个输出——在要求他们配置任何内容之前。" },
+          "features": {
+            "en": ["Role-based template selection (3 options)", "Pre-filled example workspace with real outputs", "Inline tooltips that explain features at the moment of use", "Setup options deferred to a 'Customize' section after activation"],
+            "zh": ["基于角色的模板选择（3 个选项）", "预填充的示例工作区和真实输出", "在使用时解释功能的内联提示", "设置选项推迟到激活后的'自定义'部分"]
+          },
+          "image": ""
+        },
+        "impact": {
+          "heading": { "en": "Activation rate nearly doubled.", "zh": "激活率近乎翻倍。" },
+          "body": { "en": "", "zh": "" },
+          "metrics": [
+            { "label": { "en": "7-day activation rate", "zh": "7 天激活率" }, "value": "+35%", "baseline": "" },
+            { "label": { "en": "Time to first output", "zh": "首次输出时间" }, "value": "−62%", "baseline": "" },
+            { "label": { "en": "Support tickets (onboarding)", "zh": "支持工单（引导）" }, "value": "−44%", "baseline": "" }
+          ]
+        },
+        "reflection": {
+          "heading": { "en": "Less configuration, more activation.", "zh": "更少配置，更多激活。" },
+          "body": { "en": "The biggest shift in this project was reframing the goal: from 'help users set up the tool' to 'help users feel successful as fast as possible.' Once we made that shift, every design decision became clearer.", "zh": "这个项目最大的转变是重新定义目标：从'帮助用户设置工具'到'尽快帮助用户感到成功'。一旦我们做出这个转变，每个设计决策都变得更清晰。" }
+        }
+      }
+    }
+  ]
+}

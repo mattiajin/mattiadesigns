@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /resume.pdf
+
+Sitemap: https://mattiadesigns.vercel.app/sitemap.xml
